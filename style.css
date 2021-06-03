@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+header nav{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid white; */
+    width: 100vw;
+}
+nav ul{
+    display: flex;
+    /* border: 1px solid white; */
+}
+nav ul li{
+    list-style: none;
+    margin: 5px;
+}
+nav ul li a{
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+}
+nav ul li a:hover{
+    color: black;
+    
+    background-color: white;
+}
+main{
+    height: 90vh;
+    background-color: rgba(202, 184, 133, 0.952);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:rgb(92, 68, 56);
+    /* background-color:  rgb(33, 22, 17); */
+    height: 50vh;
+    color: white;
+    border-radius: 40px;
+    min-width: 400px;
+}
+.container h1{
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 4px;
+    margin: 10px;
+}
+.inputclass{
+    margin: 10px;
+    padding: 2px;
+    width: 25vw;
+    min-width: 160px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+#inputid{
+    width: 20vw;
+}
+#btn{
+    text-decoration:none ;
+    color: white;
+    border: 1px solid white;
+    padding: 2px;
+    border-radius: 3px;
+}
+#btn:hover{
+    
+    color:rgb(92, 68, 56);
+    background: white;
+}
+#list{
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 25vw;
+    min-width: 160px;
+    height: 100%;
+    margin-bottom: 10px;
+    /* display: flex;
+    flex-direction: column; */
+    overflow-y: auto;
+    font-size: 18px;
+}
+.item{
+    height: 30px;
+    margin: 4px;
+    background-color: rgb(117, 79, 60);
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center; */
+    /* cursor: pointer; */
+    
+}
+.btnitem{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin: 2px 0px;
+}
+.btnitem:hover{
+    color: rgb(117, 79, 60);;
+    background-color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+}
